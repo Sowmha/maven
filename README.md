@@ -3,6 +3,12 @@
 A tiny public Maven repository: the published artifacts of [Soma](https://github.com/Sowmha)'s libraries.
 The source stays private; only the compiled jars live here, and you don't need a token to grab them.
 
+## Packages
+
+| Artifact | What it is |
+|---|---|
+| `top.soma:hider-api` | Public API of SomaHider: hide players inside a zone behind composable visibility rules. |
+
 ## Use a package
 
 Point your build at the repository, then add the dependency you want.
@@ -15,7 +21,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'top.soma.hider:api:1.0.0'
+    compileOnly 'top.soma:hider-api:1.13.3'
 }
 ```
 
@@ -31,10 +37,10 @@ dependencies {
 
 <dependencies>
   <dependency>
-    <groupId>top.soma.hider</groupId>
-    <artifactId>api</artifactId>
-    <version>1.0.0</version>
+    <groupId>top.soma</groupId>
+    <artifactId>hider-api</artifactId>
+    <version>1.13.3</version>
+    <scope>provided</scope>
   </dependency>
 </dependencies>
 ```
-
