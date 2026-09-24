@@ -1,13 +1,27 @@
-# Soma
+<p align="center">
+  <img src="assets/banner.svg" alt="Soma" width="480">
+</p>
 
-A tiny public Maven repository: the published artifacts of [Soma](https://github.com/Sowmha)'s libraries.
-The source stays private; only the compiled jars live here, and you don't need a token to grab them.
+<h1 align="center">Maven</h1>
+
+<p align="center">
+  Public Maven repository for the APIs of the Soma plugins.
+</p>
+
+---
+
+This repository is where developers get the API of a Soma plugin, so their own plugin can call it. Each jar comes with its sources and has the same version number as the plugin release it belongs to.
+
+Any Gradle or Maven build can read the repository from its URL, without a GitHub account or token.
 
 ## Packages
 
-| Artifact | What it is |
-|---|---|
-| `top.soma:hider-api` | Public API of SomaHider: hide players inside a zone behind composable visibility rules. |
+- **[hider-api](https://somadocs.fr/hider/dev/):** zones that hide player identities, opened and closed by another plugin, with rules that follow the game live, such as revealing whoever holds the point.
+
+## Requirements
+
+- **Server:** Spigot 1.8.8
+- **Java:** 21 or newer
 
 ## Use a package
 
