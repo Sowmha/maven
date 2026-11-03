@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "top.soma",
+    "module": "hider-api",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hider-api-2.0.0.jar",
+          "url": "hider-api-2.0.0.jar",
+          "size": 37212,
+          "sha512": "3378dfb7caf2aa30d7a4aeaaae12bae3536667d101c9cb226a5c1bf26bf6c4a8c0901f4cee7af1578a56764c73516a17d99bb8b4be835686862da6995d45df29",
+          "sha256": "9f0ec82b0d46d5b41ac62edda4df3a759756827ffc6b9c29b4f745c8c2361ec7",
+          "sha1": "88bacc365b197e2eed50ad9e70e858a24b37db94",
+          "md5": "5aa9313f9c13e19c4311a3402f1d15e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hider-api-2.0.0.jar",
+          "url": "hider-api-2.0.0.jar",
+          "size": 37212,
+          "sha512": "3378dfb7caf2aa30d7a4aeaaae12bae3536667d101c9cb226a5c1bf26bf6c4a8c0901f4cee7af1578a56764c73516a17d99bb8b4be835686862da6995d45df29",
+          "sha256": "9f0ec82b0d46d5b41ac62edda4df3a759756827ffc6b9c29b4f745c8c2361ec7",
+          "sha1": "88bacc365b197e2eed50ad9e70e858a24b37db94",
+          "md5": "5aa9313f9c13e19c4311a3402f1d15e7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hider-api-2.0.0-sources.jar",
+          "url": "hider-api-2.0.0-sources.jar",
+          "size": 22861,
+          "sha512": "457cc08c78243a724034a74c156716fde803cdfa310932fe7c4446f3df90565fbbbe53131e1c9e90914430f7245c0f78e52608a09792fb3455123a3304913767",
+          "sha256": "43678c63508e56ef904a2637f77cae2cdc7c7f435a752349a094d2570d8480e2",
+          "sha1": "faa863adcb52982eeed16150779ca96ac1c2c496",
+          "md5": "edeb22ca99e9e534df025c27a2905cf5"
+        }
+      ]
+    }
+  ]
+}
