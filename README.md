@@ -35,7 +35,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly 'top.soma:hider-api:2.2.0'
+    compileOnly 'top.soma:hider-api:2.2.1'
 }
 ```
 
@@ -53,7 +53,7 @@ dependencies {
   <dependency>
     <groupId>top.soma</groupId>
     <artifactId>hider-api</artifactId>
-    <version>2.2.0</version>
+    <version>2.2.1</version>
     <scope>provided</scope>
   </dependency>
 </dependencies>
